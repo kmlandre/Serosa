@@ -4,9 +4,9 @@
 <b> RaspberryPi based REST interface for aquatic research vehicles and data stations in Python. </b>
 #
 
-Works on a "duck typing" model and commands are sent to the REST Api, where components abstracted behind one of two categories:
-  * sensors
-  * actuators.
+Works on a "duck typing" model and instructions are sent to the REST Api, where components are abstracted behind one of two REST command categories:
+  * sensors (GET)
+  * actuators (POST)
 
 Sensors are things that get information about the outside world, like thermometers, pressure sensors, light detectors, pH sensors, etc.
 
