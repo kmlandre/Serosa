@@ -1,7 +1,8 @@
 # Serosa
-Submerge, Explore, Research, Observe, Sample, Ascend 
-
-Python based REST interface for aquatic research vehicles and data stations
+<b> Submerge, Explore, Research, Observe, Sample, Ascend </b>
+#
+<b> RaspberryPi based REST interface for aquatic research vehicles and data stations in Python. </b>
+#
 
 Works on a "duck typing" model and commands are sent to the REST Api, where components abstracted behind one of two categories:
   * sensors
