@@ -1,0 +1,139 @@
+{
+  "sensors":
+  [
+    {
+      "id": "InternalTempAndHumidity"
+    },
+    {
+      "id": "ExternalTemperature"
+    },
+    {
+      "id": "Accelerometer"
+    },
+    {
+      "id": "Gyroscope"
+    },
+    {
+      "id": "Magnometer"
+    },
+    {
+      "id": "Orientation"
+    },
+    {
+      "id": "InternalPressure"
+    },
+    {
+      "id": "ColorSensor"
+    },
+    {
+      "id": "Adc"
+    },
+    {
+      "id": "BoardVoltage"
+    }
+  ],
+
+  "actuators":
+  [
+    {
+      "id": "GlobalThrottle",
+      "countdown": "na",
+      "class": "global"
+    },
+    {
+      "id": "VerticalThruster",
+      "countdown": "3",
+      "defaultCountdown": "5",
+      "class": "thruster"
+    },
+    {
+      "id": "HorizontalThruster",
+      "countdown": "5",
+      "defaultCountdown": "5",
+      "class": "thruster"
+    },
+    {
+      "id": "PortThruster",
+      "countdown": "3",
+      "defaultCountdown": "5",
+      "class": "thruster"
+    },
+    {
+      "id": "StarboardThruster",
+      "countdown": "3",
+      "defaultCountdown": "5",
+      "class": "thruster"
+    },
+    {
+      "id": "OverheadLight",
+      "countdown": "5",
+      "defaultCountdown": "60",
+      "class": "light"
+    },
+    {
+      "id": "BellyLight",
+      "countdown": "5",
+      "defaultCountdown": "60",
+      "class": "light"
+    },
+    {
+      "id": "PortLight",
+      "countdown": "5",
+      "defaultCountdown": "60",
+      "class": "light"
+    },
+    {
+      "id": "StarboardLight",
+      "countdown": "5",
+      "defaultCountdown": "60",
+      "class": "light"
+    },
+    {
+      "id": "InternalFan",
+      "countdown": "60",
+      "defaultCountdown": "60",
+      "class": "fan"
+    },
+    {
+      "id": "CameraServos",
+      "countdown": "na",
+      "class": "servo"
+    },
+    {
+      "id": "Camera",
+      "countdown": "na",
+      "class": "camera"
+    }
+  ],
+
+  "commands":
+  [
+    {
+      "id": "lowPower"
+    },
+    {
+      "id": "allStop"
+    },
+    {
+      "id": "aheadFull"
+    },
+    {
+      "id": "asternFull"
+    },
+    {
+      "id": "fullDive"
+    },
+    {
+      "id": "fullAscent"
+    },
+    {
+      "id": "emergencyAscent"
+    },
+    {
+      "id": "allLightsOff"
+    },
+    {
+      "id": "allLightsOn"
+    }
+  ]
+}
